@@ -4,7 +4,16 @@
 
 To manage your Dockerized Laravel project, follow these steps:
 
-### Step 1: Execute the deploy.sh script
+### Step 1: Docker-Compose
+
+To Dockerized Laravel project: add docker-compose.yml to your project and edit details of database (.env file).
+
+### Step 2: Ensure Docker is installed and running
+
+Check if Docker is installed on your system and running. You can verify this by running the following command in your terminal:  
+ `docker --version`
+
+### Step 3: Execute the deploy.sh script
 
     ./deploy.sh <command>
 
