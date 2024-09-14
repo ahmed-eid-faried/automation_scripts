@@ -1,4 +1,4 @@
-//./clean_build_files.ps1
+#./clean_build_files.ps1
 
 # حذف الملفات المترجمة من مشروع C++ أو C#
 $folders = @("Debug", "Release", ".vs", "x64", "x86", "bin", "obj")
